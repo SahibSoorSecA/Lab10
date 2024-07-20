@@ -4,3 +4,36 @@
 .statement {padding: 50px;
 justify-content: center;
 text-align: center;}
+
+
+
+
+/* Form styling */
+.form-control {
+    border-radius: 0.25rem; 
+    border: 1px solid #ced4da; 
+}
+
+.form-label {
+    font-weight: bold; 
+    color: #333; 
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #007bff;
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; 
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px; /
+}
